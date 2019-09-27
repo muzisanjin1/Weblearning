@@ -1,0 +1,17 @@
+1.前端开发工具介绍：Hbuilder,可以快速生成html标准文档结构，集成了很多方便的快捷键。
+2.html的head标签学习：
+（1）不要每改一次就打开一次网页查看效果，等打开多个网页时，电脑会变卡，因为浏览器是很占内存的。只需要在前一个网页上刷新即可
+（2）出现乱码的原因：保存数据的格式和打开的格式不匹配
+（3）title、meta(html4、html5)标签是一定要会的
+    
+	网页标题标签：<title>html study</title><!--网页标题标签：告诉浏览器使用什么标题显示网页-->
+	编码格式标签：<meta charset="utf-8"/><!--网页解析编码格式配置(HTML5)：告诉浏览器使用特定的编码格式解析文档-->
+	              <meta http-equiv="content-type" content="text/html;charset=utf-8"/><!--HTML4:文档编码格式设置-->
+	网页搜索优化标签：<meta name="keywords" content="HTML,SXT,张老师,506"/><!--网页关键字-->
+		              <meta name="description" content="内容可以随便写"/><!--网页的描述-->
+		              <meta name="author" content="张老师"/><!--网页作者-->
+	网页指定跳转标签：<meta http-equiv="refresh" content="5;url=http://www.baidu.com"/><!--网页自动跳转-->
+	其他标签：例如：css引入标签和js引入标签（后面讲解）
+	
+	示例源码在02-HTML的head标签学习里
+	
