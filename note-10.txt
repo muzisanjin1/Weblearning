@@ -21,5 +21,29 @@ form表单域标签学习：
                 type:
 				    radio
 				name:name属性值相同的单选框只能选择一项数据
-				value:要提交的数据
+				value:要提交的数据,表单数据提交提交的是表单域标签的value值
 				checked:checked使用此属性的单选默认是选择状态
+9.多选框：input  
+               type:
+			        checkbox
+				name:一个多选组要使用相同的name属性值
+				value:要提交的数据
+				checked:checked 默认是选择状态
+10.单选下拉框：select
+                 name:数据提交的键名，必须声明
+			    子标签：option:一个option标签表示一个下拉选项
+				         value:要提交的数据
+11.文本域：textarea:声明一个可以书写大量文字的文本区域
+                name；数据提交的键名，js和css也会使用
+				rows:声明文本域的行数
+				cols:声明文本域的列数
+12.普通按钮：input 
+                 type:
+				      button:
+					       value
+13.隐藏标签：input 
+               type
+			      hidden
+				name
+				value
+     
