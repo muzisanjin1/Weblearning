@@ -1,0 +1,39 @@
+js的声明和引入
+1.在head标签中使用script标签进行js代码域的声明
+       <script type="text/javascript">
+	       alert("这是我的第一个js")
+		</script>
+作用：声明js代码域
+特点：js的代码域只会作用在当前网页
+2.在head标签中使用script标签引入外部声明好的js文件
+        <script src="相对路径" type="text/javascript" charset="utf-8"></script>
+作用：引入外部声明好的js文件
+特点：实现js代码的重复使用，避免代码的冗余
+3.因为js在html文档中是一门单独的语言，可以声明在文档中的任意位置，一般情况下写在head标签里。
+js的变量学习
+4.js的变量声明只有var关键字。
+     var a=123;
+	 var a1="js";
+	 var a2='k';
+	 var a3=true;
+	 var a4=new Date();
+	 var a5=3.1415926;
+	 alert(a);a1,a2,a3,a4,a5
+	js的变量名严格区分大小写，js的字符串可以使用双引号，也可以使用单引号。【**js中可以声明同名变量，不会报错，后面的会将
+	前面的声明覆盖。**】
+5.js中的数据类型
+   数据类型判断关键字：typeof
+   数据类型：
+     undefined:变量声明未赋初值的情况下，默认值是undefined.
+	 number:数字类型
+	 string：字符串类型
+	 boolean：true false
+	 object
+	 null:空对象赋值，主要是和undefined进行区分
+6.var d;
+   alert(d);
+   alert(typeof c);
+   在js代码中给声明的变量赋初始值
+	 
+	
+	
